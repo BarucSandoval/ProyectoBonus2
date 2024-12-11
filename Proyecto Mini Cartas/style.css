@@ -1,0 +1,32 @@
+/*configuracion del contenedor de las tarjetas*/
+.contenedor-tarjetas{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: 20px;
+    background-color: aquamarine;
+
+}
+/*configuracion de las tarjetas*/
+.tarjeta{
+    width: 300px;
+   background-color:yellow;
+   box-shadow: 0 4px 8px rgbargb(0,0, 0, 0.2);
+
+   margin: 20px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+ /*configuracion del tamaño de la imagen*/
+.tarjeta img{
+    display: block;
+    width: 50%;
+    margin: 3px black;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tarjeta h2, .tarjeta p {
+    margin: 10px;
+}
